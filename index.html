@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>My first Website</title>
+</head>
+<body>
+    <!-------------------------HEADER------------------------->
+    
+    <header class="header">
+        <div class="header__wraper-logo">
+            <h1 class="header__logo">Jose Waldo</h1>
+        </div>
+        <nav class="header__menu">
+            <ul class="header__menu-list">
+                <li class="header__item"><a href="#portfolio" class="header__link">Portfolio</a></li>
+                <li class="header__item"><a href="#experience" class="header__link">Experience</a></li>
+                <li class="header__item"><a href="#contact" class="header__link recuadro">Let's work together</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-------------------------PORTFOLIO------------------------->
+
+    <div id="portfolio" class="portfolio">
+        <h2 class="portfolio__subtitle">Portfolio (Important Projects)</h2>
+        <hr>
+        <div class="portfolio__container">
+            <article class="portfolio__article">
+                <div class="portfolio__wrapper-content">
+                    <h3>Lorem ipsum</h3>
+                    <h4>Javascript - HTML -CSS</h4>
+                    <span>Fecha: January 8th, 2021</span> <br>
+                    <span>You can see it in: <a href="">www.facebook.com</a> </span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, mollitia quis iusto, ad perspiciatis quos, laborum culpa ratione voluptatum commodi tempore. Commodi, nihil saepe. Ratione nulla quas enim sunt iusto.</p>
+                </div>
+                <figure class="portfolio__figure">
+                    <img src="img/social-media.svg" alt="Social Media">
+                </figure>
+            </article>
+            
+            <article class="portfolio__article">
+                <div class="portfolio__wrapper-content">
+                    <h3>Lorem ipsum</h3>
+                    <h4>Javascript - HTML -CSS</h4>
+                    <span>Fecha: January 8th, 2021</span> <br>
+                    <span>You can see it in: <a href="">www.facebook.com</a> </span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, mollitia quis iusto, ad perspiciatis quos, laborum culpa ratione voluptatum commodi tempore. Commodi, nihil saepe. Ratione nulla quas enim sunt iusto.</p>
+                </div>
+                <figure class="portfolio__figure">
+                    <img src="img/social-media.svg" alt="Social Media">
+                </figure>
+            </article>
+            
+            <article class="portfolio__article">
+                <div class="portfolio__wrapper-content">
+                    <h3>Lorem ipsum</h3>
+                    <h4>Javascript - HTML -CSS</h4>
+                    <span>Fecha: January 8th, 2021</span> <br>
+                    <span>You can see it in: <a href="">www.facebook.com</a> </span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, mollitia quis iusto, ad perspiciatis quos, laborum culpa ratione voluptatum commodi tempore. Commodi, nihil saepe. Ratione nulla quas enim sunt iusto.</p>
+                </div>
+                <figure class="portfolio__figure">
+                    <img src="img/social-media.svg" alt="Social Media">
+                </figure>
+            </article>
+        </div>
+    </div>
+
+    <!-------------------------EXPERIENCE------------------------->
+
+    <div id="experience" class="experience">
+        <h2 class="experience__subtitle">More about my experience</h2>
+        <hr>
+        <div class="experience-container">
+            <article class="experience__article">
+                <figure class="experience__figure">
+                    <img src="img/coder.jpg" alt="code" class="experience__img" width="100px" height="100px">
+                </figure>
+                <div class="experience__text">
+                    <h3>Javascript</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, sed dolore laudantium amet dolores officia sequi voluptatibus distinctio quasi illo.
+                    </p>
+                    <button>See Projects</button>
+                </div>
+            </article>
+            
+            <article class="experience__article">
+                <figure class="experience__figure">
+                    <img src="img/music.jpg" alt="code" class="experience__img" width="100px" height="100px">
+                </figure>
+                <div class="experience__text">
+                    <h3>Music</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, sed dolore laudantium amet dolores officia sequi voluptatibus distinctio quasi illo.
+                    </p>
+                    <button>See Projects</button>
+                </div>
+            </article>
+            
+            <article class="experience__article">
+                <figure class="experience__figure">
+                    <img src="img/mobile.jpg" alt="code" class="experience__img" width="100px" height="100px">
+                </figure>
+                <div class="experience__text mobile">
+                    <h3>Mobile Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, sed dolore laudantium amet dolores officia sequi voluptatibus distinctio quasi illo.
+                    </p>
+                    <button>See Projects</button>
+                </div>
+            </article>
+            
+            <article class="experience__article">
+                <figure class="experience__figure">
+                    <img src="img/dron.jpg" alt="code" class="experience__img" width="100px" height="100px">
+                </figure>
+                <div class="experience__text">
+                    <h3>Electronic</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, sed dolore laudantium amet dolores officia sequi voluptatibus distinctio quasi illo.
+                    </p>
+                    <button>See Projects</button>
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <!-------------------------CONTACT------------------------->
+
+    <div class="contact" id="contact">
+        <h2>Let's work together</h2>
+        <hr>
+        <div class="contact__container">
+            <div class="contact__form-container">
+                <form action="">
+                    <input type="email" name="email" id="email" class="email" placeholder="Give me your email">
+                    <br>
+                    <button type="submit" class="send">Send</button>
+                </form>
+            </div>
+
+            <div class="contact__redes">
+                <a href="https://www.facebook.com/Jose.Waldo.99/" class="redes__ancla"><img class="redes" src="img/facebook.svg" alt="facebook"></a>
+                <a href="https://www.instagram.com/jose_waldo90/" class="redes__ancla"><img class="redes" src="img/instagram.svg" alt="instagram"></a>
+                <a href="https://github.com/JoseWaldo" class="redes__ancla"><img class="redes" src="img/github.svg" alt="github"></a>
+            </div>
+        </div>
+        <p class="contact__text">Made for Jose Waldo, student of systems engineering</p>
+    </div>
+
+
+</body>
+</html>
