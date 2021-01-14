@@ -260,10 +260,10 @@ hr{
 /* -------------------------CONTACT------------------------- */
 
 .contact{
-    border: 1px solid black;
     background-color: var(--darkblue-color);
     color: var(--white-color);
     width: 100%;
+    padding-top: 1rem;
 }
 
 .contact h2{
